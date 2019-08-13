@@ -1,5 +1,5 @@
 # PubPwn ![logo](pubpwn.jpg)
-A simple wrapper to easly pwn connected devices (at your favourite Pub) from your smartphone XD</br>
+A simple wrapper to easly pwn connected devices (at your favourite Pub) from your smartphone.</br>
 
 Introduction</br>
 Often, when you are alone in the pub, you need to waste your time somehow.</br>
