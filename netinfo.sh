@@ -12,11 +12,12 @@ banner() {
     echo "| | | |  __/ |_| | | | |  _| (_) |"
     echo "|_| |_|\___|\__|_|_| |_|_|  \___/ "
     echo ""
-    echo "      by alegrey91"
+    echo "by alegrey91"
 }
 
 echo ""
 banner
+separate
 net=$(ip route |  grep -oE "([0-9]{1,3}[\.]){3}[0-9]{1,3}/[0-9]{1,3}")
 echo "[Gateway]:"
 echo $net
