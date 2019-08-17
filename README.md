@@ -7,7 +7,7 @@ The idea was born few months ago, when I was really bored, in front of a pint of
 The reason why I decided to create this repo is that: pwn from your smartphone is very hard!</br> 
 The output is really unreadable and write commands is not so easy.</br>
 For this reason I decide to automize the information gathering process using this script.</br>
-N.B. they just are wrapper for other tools, nothing really special.</br>
+N.B. It's just a simple wrapper for common tools, nothing really special.</br>
 
 ![screen](screen.jpg)</br>
 As you can see, you have an easy interface to check alive hosts and scan their open ports.</br>
