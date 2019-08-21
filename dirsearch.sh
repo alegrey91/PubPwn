@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 separate () {
     echo ""
@@ -54,7 +54,7 @@ else
             grep -E '^HTTP\/*' |\
             awk '{ print $2 }');
         #echo $res;
-        if [[ $res -eq 200 ]] || [[ $res -eq 302 ]]; then
+        if [ "$res" == "200" ] || [ "$res" == "302" ]; then
             echo "$res  ->  /$line";
         fi
     done < $seclist
